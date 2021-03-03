@@ -5,21 +5,22 @@ function writeheader()
   document.write('</div>')
 
 }
-function startsection(s)
+function startsection(s, b)
 {
   str = '<table class=noborder width=100%>\
     <tr valign=top>\
     <td style="background-color:#ffd080; width:9em;">\
     &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;\
-    <center>\
-    <br><br>';
+    <center>';
+
   document.write(str);
+  document.write(b);
 
   document.write(s);
 
   str2 = '</center>\
     <td style="width:2em">\
-    <td style="width:35em"><br><br>';
+    <td style="width:35em">';
   document.write(str2)
 }
 
@@ -31,7 +32,8 @@ function endsection()
 function startpage(s)
 {
     writeheader()
-    startsection(s)
+    startsection(s, "<br>")
+    document.write("<br>")
 }
 
 function endpage()
@@ -43,5 +45,5 @@ function endpage()
 function nextsection(s)
 {
   endsection()
-  startsection(s)
+  startsection(s, "")
 }

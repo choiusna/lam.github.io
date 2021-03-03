@@ -5,7 +5,7 @@ html{ font-size: 20px;}
 body {
  font-family: 'Noto Serif KR', serif;
  font-size: 1rem;
- line-height: 1rem;
+ line-height: 1.8;
  padding-top: 10px;
  padding-bottom: 10px;
  background-color: white;
@@ -79,10 +79,9 @@ table tr td {
       margin-bottom: 0; }
 
 .noborder, .noborder tr, .noborder th, .noborder td {
-  line-height: 1.6;
   border: none;
   margin: 0;
-  padding: 0.5em;
+  padding: 0.3em;
 }
 
 
@@ -124,6 +123,9 @@ table.RM td {
   margin-right: -25%;
 }
 
+.right {
+  text-align: right;
+}
 ol {
   margin-left: 0;
   padding-left: 1em;
@@ -151,9 +153,9 @@ ol li:before {
   font-family: sans-serif;
 }
 
-ul {
+.bulb {
   list-style: "💡 ";
-  list-style-position: outside;}
+  list-style-position: outside;
 }
 
 
