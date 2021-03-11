@@ -181,24 +181,25 @@ table.RM td {
   list-style-position: outside;
 }
 
-@media print
-{
- .breakit { page-break-before: always; }
+.header  {
+  text-align: center;
+  font-size: 0.8em;
+}
+
+@page{
+  size:letter;
+  margin-top:1cm;
+  margin-bottom: 1.5cm;
 }
 
 @media print
 {
- .pheader { page-break-before: always; text-align: right;}
+  .page-break	{display:block; page-break-after: always; }
 }
+
+
 @media screen {
-  div.pheader  {
+  div.header  {
     display: none;
   }
 }
-.pheader {
-    page-break-before: always;
-    font-size: 0.8em;
-    text-align: center;
-    counter-increment: page;
-}
-div.pheader:after { content: " -- page  " counter(page); font-weight: bold; }

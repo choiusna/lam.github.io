@@ -1,9 +1,12 @@
+
+var pagev = 1;
+
 function writeheader()
 {
-  document.write('<div class=pheader>')
-  document.write(document.title);
+  document.write('<div class="header">')
+  document.write(document.title + " -- page " + pagev + "<br><br>" )
   document.write('</div>')
-
+  pagev++
 }
 function startsection(s, b)
 {
@@ -31,9 +34,8 @@ function endsection()
 
 function startpage(s)
 {
-    writeheader()
-    startsection(s, "<br>")
-    document.write("<br>")
+  writeheader()
+  startsection(s, "")
 }
 
 function endpage()
