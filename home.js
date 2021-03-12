@@ -13,14 +13,13 @@ function startsection(s, b)
   str = '<table class=noborder width=100%>\
     <tr valign=top>\
     <td style="background-color:#FFD378; width:9em;">\
-    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;\
-    <center>';
+    <br><center>';
 
   document.write(str);
   document.write(b);
 
   document.write(s);
-
+  document.write("<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;");
   str2 = '</center>\
     <td style="width:2em">\
     <td style="width:35em">';
