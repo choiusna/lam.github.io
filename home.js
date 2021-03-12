@@ -12,7 +12,7 @@ function startsection(s, b)
 {
   str = '<table class=noborder width=100%>\
     <tr valign=top>\
-    <td style="background-color:#FFD378; width:9rem;">\
+    <td style="background-color:#FFD378; width:9em;">\
     <br><center>';
 
   document.write(str);
@@ -21,8 +21,8 @@ function startsection(s, b)
   document.write(s);
   document.write("<br><span style='width:100%'&emsp;</span>");
   str2 = '</center>\
-    <td style="width:2rem">\
-    <td style="width:36rem">';
+    <td style="width:2em">\
+    <td style="width:36em">';
   document.write(str2)
 }
 
