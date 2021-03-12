@@ -57,7 +57,7 @@ h3 {
 }
 
 .fancy{
-  padding-right: 0.5em;
+  padding-right: 0.5rem;
   text-indent: -0.7rem;
   font-size: 25px;
   color: CornflowerBlue;
@@ -77,7 +77,7 @@ h4 {
 p {
   display: block;
   margin-top: 1em;
-  margin-bottom: 0.5em;
+  margin-bottom: 0.5rem;
   margin-left: 0;
   margin-right: 0;
 }
@@ -88,23 +88,24 @@ pre {
 
 
 table {
-  padding: 1em;
+  padding: 1rem;
+  font-size:1rem;
   border-collapse: collapse;
 }
 
 table tr td {
     border: 1px solid #cccccc;
     margin: 0;
-    padding: 10em 10em 10em;  }
+    padding: 10rem 10rem 10rem;  }
     table tr th :first-child, table tr td :first-child {
-      ma3emgin-top: 0; }
+      margin-top: 0; }
     table tr th :last-child, table tr td :last-child {
       margin-bottom: 0; }
 
 .noborder, .noborder tr, .noborder th, .noborder td {
   border: none;
   margin: 0;
-  padding: 0.3em;
+  padding: 0.3rem;
 }
 
 
@@ -152,12 +153,12 @@ table.RM td {
 
 ol.fl {
   margin-left: 0;
-  padding-left: 1em;
+  padding-left: 1rem;
 }
 
 ol.fl li {
   margin-left: 0;
-  padding-left: 1em;
+  padding-left: 1rem;
   list-style-type: none;
   counter-increment: ol-item;
   display: table-row;
@@ -166,7 +167,7 @@ ol.fl li {
 ol.fl li:before {
   display: table-cell;
   content: counter(ol-item) "     ";
-  padding-right: 0.5em;
+  padding-right: 0.5rem;
   text-indent: -0.3rem;
   font-size: 25px;
   color: CornflowerBlue;
@@ -180,7 +181,7 @@ ol.fl ul { counter-reset: ul-item; line-height: 1.5}
 ol.fl ul li {counter-increment: ul-item; }
 ol.fl ul li::before{
   margin:0;
-  padding-right: 0em;
+  padding-right: 0rem;
   padding-left:0;
   margin-left:0;
   text-indent:0;
@@ -199,13 +200,15 @@ ol.fl ul li::before{
 
 .header  {
   text-align: center;
-  font-size: 0.8em;
+  font-size: 0.8rem;
 }
 
 @page{
   size:letter;
   margin-top:1cm;
   margin-bottom: 1.5cm;
+  margin-left:1cm;
+  margin-right:1cm;
 }
 
 @media print
