@@ -11,7 +11,7 @@ body {
  background-color: white;
  padding: 30px;
  width: 50rem;
- padding-right:3em
+ margin-right:3em
 }
 
 
@@ -42,7 +42,7 @@ h1 {
 }
 
 h2 {
- font-size: 1.5rem;
+ font-size: 1.3rem;
  font-weight: bold;
  border-bottom: 1px solid #cccccc;
  margin-top: 3rem;
@@ -57,7 +57,7 @@ h3 {
 }
 
 .fancy{
-  padding-right: 0.5rem;
+  padding-right: 0.5em;
   text-indent: -0.7rem;
   font-size: 25px;
   color: CornflowerBlue;
@@ -77,13 +77,13 @@ h4 {
 p {
   display: block;
   margin-top: 1em;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.5em;
   margin-left: 0;
   margin-right: 0;
 }
 
 pre {
-  font-size: 0.8rem;
+  font-size: 0.8em;
 }
 
 
@@ -96,16 +96,16 @@ table {
 table tr td {
     border: 1px solid #cccccc;
     margin: 0;
-    padding: 10rem 10rem 10rem;  }
+    padding: 10em 10em 10em;  }
     table tr th :first-child, table tr td :first-child {
-      margin-top: 0; }
+      ma3emgin-top: 0; }
     table tr th :last-child, table tr td :last-child {
       margin-bottom: 0; }
 
 .noborder, .noborder tr, .noborder th, .noborder td {
   border: none;
   margin: 0;
-  padding: 0.3rem;
+  padding: 0.3em;
 }
 
 
@@ -153,12 +153,12 @@ table.RM td {
 
 ol.fl {
   margin-left: 0;
-  padding-left: 1rem;
+  padding-left: 1em;
 }
 
 ol.fl li {
   margin-left: 0;
-  padding-left: 1rem;
+  padding-left: 1em;
   list-style-type: none;
   counter-increment: ol-item;
   display: table-row;
@@ -167,7 +167,7 @@ ol.fl li {
 ol.fl li:before {
   display: table-cell;
   content: counter(ol-item) "     ";
-  padding-right: 0.5rem;
+  padding-right: 0.5em;
   text-indent: -0.3rem;
   font-size: 25px;
   color: CornflowerBlue;
@@ -181,7 +181,7 @@ ol.fl ul { counter-reset: ul-item; line-height: 1.5}
 ol.fl ul li {counter-increment: ul-item; }
 ol.fl ul li::before{
   margin:0;
-  padding-right: 0rem;
+  padding-right: 0em;
   padding-left:0;
   margin-left:0;
   text-indent:0;
@@ -200,14 +200,13 @@ ol.fl ul li::before{
 
 .header  {
   text-align: center;
-  font-size: 0.8rem;
+  font-size: 0.8em;
 }
 
 @page{
   size:letter;
   margin-top:1cm;
   margin-bottom: 1.5cm;
-  margin-left:1cm;
   margin-right:1cm;
 }
 
