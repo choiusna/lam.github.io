@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@300;400&display=swap');
 
 html{
-  font-size: min(max(10px, 1.5vw), 22px);
+  font-size: min(max(8px, 1vw), 22px);
 }
 
 body {
