@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@300;400&display=swap');
- 
+
 body {
  font-family: 'Noto Serif KR', serif;
  font-size: 1em;
@@ -57,10 +57,10 @@ h3 {
 .fancy{
   padding-right: 0.5em;
   text-indent: -0.7em;
-  font-size: 25px;
+  font-size: 1.1em;
   color: CornflowerBlue;
   font-weight: bold;
-  text-shadow: -4px 2px 7px #504747;
+  text-shadow: -4px 2px 7px #aaaaaa;
   font-style: italic;
   font-family: sans-serif;
 }
@@ -81,7 +81,7 @@ p {
 }
 
 pre {
-  font-size: 0.85em;
+  font-size: 1em;
 }
 
 
@@ -167,10 +167,10 @@ ol.fl li:before {
   content: counter(ol-item) "     ";
   padding-right: 0.5em;
   text-indent: -0.3em;
-  font-size: 25px;
   color: CornflowerBlue;
+  font-size: 1.1em;
   font-weight: bold;
-  text-shadow: -4px 2px 7px #504747;
+  text-shadow: -4px 2px 7px #aaaaaa;
   font-style: italic;
   font-family: sans-serif;
 }
