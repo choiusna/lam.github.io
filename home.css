@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@300;400&display=swap');
 
 html{
-  font-size: 1em;
+ font-size: 1em;
+ width: 60em;
 }
 
 body {
@@ -13,7 +14,6 @@ body {
  padding: 30px;
  margin-right:3em;
  font-size:1em;
- width: 55em;
 }
 
 
