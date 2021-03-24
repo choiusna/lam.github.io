@@ -2,7 +2,7 @@
 
 html{
  font-size: 1em;
- width: 60em;
+ width: 56em;
 }
 
 body {
@@ -86,12 +86,7 @@ p {
 
 pre {
   font-size: 1em;
-}
-
-@media screen and (max-width: 480px) {
-  pre {
-    width:50% !important;
-  }
+  white-space: pre-wrap;
 }
 
 table {
