@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@300;400&display=swap');
 
 html{
-  font-size: min(max(8px, 1vw), 22px);
+  font-size: 1em;
 }
 
 body {
@@ -13,7 +13,7 @@ body {
  padding: 30px;
  margin-right:3em;
  font-size:1em;
- width: 60em;
+ width: 55em;
 }
 
 
@@ -85,7 +85,7 @@ p {
 }
 
 pre {
-  font-size: 0.9em;
+  font-size: 0.9vw;
 }
 
 
