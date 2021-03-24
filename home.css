@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@300;400&display=swap');
-
-html{ font-size: 18px;}
-
+ 
 body {
  font-family: 'Noto Serif KR', serif;
  font-size: 1em;
@@ -219,5 +217,8 @@ ol.fl ul li::before{
 @media screen {
   div.header  {
     display: none;
+  }
+  div.filler {
+    display:none;
   }
 }

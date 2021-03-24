@@ -37,6 +37,11 @@ function startpage(s)
   startsection(s, "")
 }
 
+function endpage2(s)
+{
+  document.write("<div class=filler style=height:" + s + "></div>");
+  endpage()
+}
 function endpage()
 {
   endsection()
