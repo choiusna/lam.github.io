@@ -1,15 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@300;400&display=swap');
 
+html{
+  font-size: 1em; 
+}
+
 body {
  font-family: 'Noto Serif KR', serif;
- font-size: 1em;
  line-height: 1.8;
  padding-top: 10px;
  padding-bottom: 10px;
  background-color: white;
  padding: 30px;
- width: 54em;
- margin-right:3em
+ margin-right:3em;
+ font-size:1em;
+ max-width: 54em;
+ min-width: 54em;
 }
 
 
@@ -81,7 +86,7 @@ p {
 }
 
 pre {
-  font-size: 1em;
+  font-size: 0.9em;
 }
 
 
@@ -134,10 +139,10 @@ table.RM td {
 .ibox{
   border-style:double;
   border-collapse:collapse;
-  border-width:4pt;
+  border-width: 0.2em;
   border-color: #000084;
   font-size: 1.5em;
-  padding: 10px 10px 10px 10px;
+  padding: 0.2em 0.2em 0.2em 0.2em;
 }
 
 .color-overlap-right {
