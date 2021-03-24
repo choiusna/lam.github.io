@@ -2,7 +2,6 @@
 
 html{
  font-size: 1em;
- width: 58em;
 }
 
 body {
@@ -14,6 +13,7 @@ body {
  padding: 30px;
  margin-right:3em;
  font-size:1em;
+ width: 58em;
 }
 
 
