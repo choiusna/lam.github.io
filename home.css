@@ -196,7 +196,7 @@ ol.fl ul li::before{
 }
 
 .bulb {
-  list-style: "💡 ";
+  list-style-image: url("bulb.png");
   list-style-position: outside;
 }
 
