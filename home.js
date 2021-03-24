@@ -19,7 +19,7 @@ function startsection(s, b)
   document.write(b);
 
   document.write(s);
-  document.write("<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;");
+  document.write("<br>..........................................................")
   str2 = '</center>\
     <td style="width:5%">\
     <td style="width:75%">';
